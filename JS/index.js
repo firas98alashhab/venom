@@ -4,9 +4,9 @@ let menuItems = document.getElementById('menu-item');
 menutoggle.onclick = function() {
     menutoggle.classList.toggle('activeBtn');
 
-    if(menutoggle.classList.contains('activeBtn')) {
-        menuItems.style.display = 'block';
-    }else{
+    if(!menutoggle.classList.contains('activeBtn')) {
         menuItems.style.display = 'none';
+    }else{
+        menuItems.style.display = 'block';
     }
 }
