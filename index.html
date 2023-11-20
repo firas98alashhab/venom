@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="icon" href="Assets/Logo.png" type="image/png">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Venom</title>
@@ -21,7 +22,7 @@
                 </div>
                 <ul class="nav-item">
                     <li>
-                        <a class="active" href="#home">About us</a>
+                        <a class="active" href="#about">About us</a>
                     </li>
                     <li>
                         <a href="#">Products</a>
@@ -40,7 +41,7 @@
             <div class="mobile-nav">
                 <ul id="menu-item" class="mobilenav-item">
                     <li>
-                        <a href="#home">About us</a>
+                        <a href="#about">About us</a>
                     </li>
                     <li>
                         <a href="#">Products</a>
@@ -52,6 +53,19 @@
             </div>
         </nav>
     </div>
+    <section class="about" id="about">
+        <div class="third-background"></div>
+        <div class="about-content-container">
+            <div class="text-container">
+                <h3 class="about-header">About us</h3>
+                <p class="about-details">Welcome to VENOM, a leading gaming company based in Amman, AM. With a passion for gaming and a commitment to excellence, we strive to deliver unforgettable gaming experiences to players around the world.</p>
+                <p class="about-details">At VENOM, we are dedicated to pushing the boundaries of gaming innovation. Our talented team of developers, designers, and gamers work tirelessly to create immersive and cutting-edge games that captivate and entertain. Whether you're a casual gamer or a hardcore enthusiast, we have something for everyone. Join us on this thrilling journey and let VENOM take your gaming experience to the next level.</p>
+            </div>
+            <div class="image-container">
+                <img src="Assets/imgs/about-image.webp">
+            </div>
+        </div>
+    </section>
     <section class="about-us" id="about-us">
         <div class="about-us-container">
             <h1>Experience Thrilling Gaming</h1>
@@ -64,19 +78,56 @@
         <p class="home-details">Introducing VENOM, the ultimate gaming destination in Amman, AM. With a passion for gaming, we offer an unparalleled experience for gamers of all levels. From cutting-edge technology to a vibrant gaming community, we provide a platform where players can truly immerse themselves in the world of gaming. Whether you're a casual gamer or a competitive player, VENOM is the place to unleash your skills, connect with like-minded individuals, and take your gaming journey to the next level. Join us at VENOM and let the games begin!</p>
         <div class="categories">
             <div class="category-1">
-                <img src="Assets/imgs/JoyStick.jpg">
+                <div class="image-wrapper">
+                    <img src="Assets/imgs/JoyStick.jpg">
+                </div>
                 <h2 class="category-title">Game Development</h2>
                 <p class="category-info">Bring your gaming ideas to life with our expert game development services.</p>
             </div>
             <div class="category-1">
-                <img src="Assets/imgs/yellow-joystick.jpg">
+                <div class="image-wrapper">
+                    <img src="Assets/imgs/yellow-joystick.jpg">
+                </div>
                 <h2 class="category-title">Game Design</h2>
                 <p class="category-info">Immerse players in captivating virtual worlds with our exceptional game design expertise.</p>
             </div>
             <div class="category-1">
-                <img src="Assets/imgs/gameover.jpg">
+                <div class="image-wrapper">
+                    <img src="Assets/imgs/gameover.jpg">
+                </div>
                 <h2 class="category-title">Game Consultancy</h2>
-                <p class="category-info">Get professional guidance and insights on gaming trends and strategies from our experienced consultants.</p>
+                <p class="category-info">Gain unparalleled gaming insights and strategies from our seasoned consultants.</p>
+            </div>
+        </div>
+    </section>
+    <section class="contact-us" id="contact-us">
+        <div class="contact-background"></div>
+        <div class="contact-content-container">
+            <div class="contact-text-container">
+                <h3 class="contact-header">Contact Us Now</h3>
+                <p class="contact-details">Complete the form below to get in touch with us. We are here to answer any questions or concerns you may have about our gaming services. We can't wait to hear from you!</p>
+            </div>
+            <div class="contact-form">
+                <form>
+                    <div class="name-password">
+                        <div class="name">
+                            <label for="name">Name</label>
+                            <input type="text">
+                        </div>
+                        <div class="email">
+                            <label for="email">E-mail</label>
+                            <input type="email">
+                        </div>
+                    </div>
+                    <div class="message">
+                        <label for="message">Message</label>
+                        <textarea name="message" rows="5"></textarea>
+                    </div>
+                    <div class="contact-footer">
+                        <p>This site is protected by reCAPTCHA and the Google <strong>Privacy Policy</strong> and <strong>Terms of Service</strong> apply.</p>
+                        <a href="#">Send</a>
+                    </div>
+                </form>
             </div>
         </div>
     </section>
