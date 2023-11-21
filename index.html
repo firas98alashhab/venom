@@ -22,32 +22,39 @@
                 </div>
                 <ul class="nav-item">
                     <li>
-                        <a class="active" href="#about">About us</a>
+                        <a class="active" href="#">Home</a>
                     </li>
-                    <li>
-                        <a href="#">Products</a>
-                    </li>
-                    <li>
-                        <a href="#">Contact us</a>
-                    </li>
-                </ul>
-                <div class="toggle">
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                </div>
-            </div>
-
-            <div class="mobile-nav">
-                <ul id="menu-item" class="mobilenav-item">
                     <li>
                         <a href="#about">About us</a>
                     </li>
                     <li>
-                        <a href="#">Products</a>
+                        <a href="#products">Products</a>
                     </li>
                     <li>
-                        <a href="#">Contact us</a>
+                        <a href="#contact-us">Contact us</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+
+            <div class="mobile-nav">
+                <img class="menu-logo" src="Assets/Logo.png">
+                <ul id="menu-item" class="mobilenav-item">
+                    <li>
+                        <a href="#">Home</a>
+                    </li>
+                    <li>
+                        <a href="#about">About us</a>
+                    </li>
+                    <li>
+                        <a href="#products">Products</a>
+                    </li>
+                    <li>
+                        <a href="#contact-us">Contact us</a>
                     </li>
                 </ul>
             </div>
@@ -100,6 +107,15 @@
             </div>
         </div>
     </section>
+    <section class="products" id="products">
+        <div class="products-background"></div>
+        <div class="products-content">
+            <h2>Products</h2>
+            <div class="product-section-content">
+
+            </div>
+        </div>
+    </section>
     <section class="contact-us" id="contact-us">
         <div class="contact-background"></div>
         <div class="contact-content-container">
@@ -111,21 +127,21 @@
                 <form>
                     <div class="name-password">
                         <div class="name">
-                            <label for="name">Name</label>
+                            <label>Name</label>
                             <input type="text">
                         </div>
                         <div class="email">
-                            <label for="email">E-mail</label>
+                            <label>E-mail</label>
                             <input type="email">
                         </div>
                     </div>
                     <div class="message">
-                        <label for="message">Message</label>
+                        <label>Message</label>
                         <textarea name="message" rows="5"></textarea>
                     </div>
                     <div class="contact-footer">
-                        <p>This site is protected by reCAPTCHA and the Google <strong>Privacy Policy</strong> and <strong>Terms of Service</strong> apply.</p>
-                        <a href="#">Send</a>
+                        <p>This site is protected by reCAPTCHA and the Google <a href="#">Privacy Policy</a> and <a href="#">Terms of Service</a> apply.</p>
+                        <a class="send-button" href="#">Send</a>
                     </div>
                 </form>
             </div>

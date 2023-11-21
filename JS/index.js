@@ -24,7 +24,7 @@ menutoggle.onclick = function () {
         body.style.overflow = 'auto';
         overlay.style.display = 'none';
     } else {
-        menuItems.style.display = 'block';
+        menuItems.style.display = 'flex';
         body.style.overflow = 'hidden';
         overlay.style.display = 'block';
     }
