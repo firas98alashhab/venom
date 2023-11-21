@@ -78,7 +78,6 @@ nav {
 
 .desktop-nav .logo img {
     max-width: 100px;
-    margin-top: -60px;
     padding: 0;
 }
 
@@ -862,6 +861,12 @@ nav {
         transform: translateY(0px) rotate(315deg);
         transition-delay: 0.25s;
     }
+    .desktop-nav .logo img {
+        max-width: 100px;
+        margin-top: -60px;
+        margin-left: -20px;
+        padding: 0;
+    }
 }
 
 @media(max-width: 767px) {
@@ -964,7 +969,12 @@ nav {
     .contact-content-container {
         padding: 60px 20px;
     }
-    
+    .desktop-nav .logo img {
+        max-width: 100px;
+        margin-top: -60px;
+        margin-left: 0;
+        padding: 0;
+    }
 }
 
 @media(max-width: 390px) {
