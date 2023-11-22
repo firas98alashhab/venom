@@ -79,6 +79,9 @@ nav {
 .desktop-nav .logo img {
     max-width: 100px;
     padding: 0;
+    margin: 0;
+    position: fixed;
+    margin-top: -55px;
 }
 
 .desktop-nav .nav-item {
@@ -201,8 +204,10 @@ nav {
 }
 
 .toggle {
-    margin-top: 25px;
-    position: relative;
+    margin-top: 45px;
+    position: fixed;
+    right: 4%;
+    top: 0;
     width: 70px;
     height: 70px;
     background: transparent;
@@ -431,14 +436,50 @@ nav {
 .products {
     position: relative;
     margin: 0;
-    padding: 0;
+    padding: 120px 0;
 }
 
 .products-content {
     max-width: 1460px;
     margin-left: auto;
     margin-right: auto;
-    height: 100vh;
+    height: 100%;
+}
+
+.products-content h2 {
+    text-align: center;
+    font-size: 48px;
+    line-height: 56px;
+    color: #fff;
+    padding-bottom: 60px;
+}
+
+.products-layer-one {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.product-section-content {
+    height: 100%;
+    margin-bottom: auto;
+}
+
+.products-layer-one .product-1-container {
+    color: #fff;
+    max-width: 1460px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.products-layer-one .product-1-container img {
+    height: 800px;
+    width: 650px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 15px;
 }
 
 .contact-background {
