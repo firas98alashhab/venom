@@ -152,8 +152,7 @@ nav {
     width: 0;
     height: 100vh;
     overflow: hidden;
-    background: url('../Assets/imgs/yellow-joystick-4.jpg') center/cover no-repeat;
-    background-color: rgba(0, 0, 0, 0.694);
+    background-color: black;
     object-position: left;
     transition: width 0.3s ease;
 }
