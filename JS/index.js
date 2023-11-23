@@ -53,6 +53,9 @@ document.addEventListener("DOMContentLoaded", function () {
     });
 });
 
+
+// active class effect on scroll logic
+
 document.addEventListener("DOMContentLoaded", function () {
     var navLinks = document.querySelectorAll(".nav-item a");
 
@@ -98,3 +101,4 @@ document.addEventListener("DOMContentLoaded", function () {
 
     window.addEventListener("scroll", changeActiveNav);
 });
+
